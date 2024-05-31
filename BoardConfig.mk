@@ -20,7 +20,7 @@
 DEVICE_PATH := device/motorola/river
 
 # Assertions
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := river
 
 # Display
@@ -46,5 +46,5 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
-# inherit from the proprietary version
+# Inherit from the proprietary version
 include vendor/motorola/river/BoardConfigVendor.mk
