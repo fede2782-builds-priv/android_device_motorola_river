@@ -2,11 +2,11 @@
   {
     "repository":"crdroidandroid/android_device_motorola_sdm632-common",
     "target_path":"device/motorola/sdm632-common",
-    "branch":"13.0"
+    "branch":"14.0"
   },
   {
     "repository":"crdroidandroid/proprietary_vendor_motorola_river",
     "target_path":"vendor/motorola/river",
-    "branch":"13.0"
+    "branch":"14.0"
   }
 ]
