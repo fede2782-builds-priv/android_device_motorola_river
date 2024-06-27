@@ -10,7 +10,7 @@ vendor/lib/libtinycompress_vendor.so
 vendor/lib/libunshorten.so
 vendor/lib/soundfx/libspeakerbundle.so
 vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/vndk/libtinyalsa.so
+vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
 vendor/lib/libdapparamstorage.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/vendor.dolby.hardware.dms@1.0.so
